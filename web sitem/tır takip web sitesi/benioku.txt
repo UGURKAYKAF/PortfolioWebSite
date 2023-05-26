@@ -1,0 +1,8 @@
+Bilgisayar İnternete bağlı olmalıdır
+projeyi açmak için xampp i kurmanız lazım 
+xampp den apache ve mysqli aktif edin
+SistemAnalizi adlı dosyayı xamppin kurulu olduğu klasöre gelip htdocs a atın
+veritabanını mysql e import edin phpmyadminden veya başka bir mysql platformundan
+proje daha kolay açılması için config dosyasının içinde constants.php i açın database connectioni yorum satırına aldım orası açıldığında düzelir.
+Hala hata veriyorsa define("SITEURL", "localhost"); ' la değiştirin
+sitede admin sayfasına gelmek için url e /admin yazın

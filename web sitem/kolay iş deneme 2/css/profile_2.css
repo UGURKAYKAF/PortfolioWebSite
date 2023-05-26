@@ -1,0 +1,32 @@
+body{
+    margin: 5px;
+}
+
+.con{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+    grid-template-areas: "nav nav"
+                        "side main"
+                        "footer footer";
+    gap: 5px;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.side{
+    grid-area: side;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: darkgreen;
+}
+

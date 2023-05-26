@@ -1,0 +1,248 @@
+.class{
+    margin-left: 5%;
+}
+
+.navbar-2{
+    width: 100%;
+    min-width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-2-a{
+    display: flex;
+}
+
+.navbar-a-img{
+    height: 1.5rem;
+    margin-right: 0.75rem
+}
+
+.navbar-a-span{
+    align-self: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.navbar-3{
+    width: auto;    
+    display: block;
+}
+
+.navbar-ul{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+    flex-direction: row;    
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    border-width: 1px;    
+    list-style-type: none;
+    border-color: rgb(243 244 246 / 1);    
+}
+
+.navbar-ul-li-a-1{
+    padding: 0px;
+    background-color: transparent;
+    padding-right: 1rem;
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    color: rgb(29 78 216 / 1);
+}
+
+.navbar-ul-li-a-2{
+    padding: 0px;    
+    border-width: 0px;
+    padding-right: 1rem;
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    display: block;
+    color: rgb(55 65 81 / 1);
+}
+
+.sidebar-1{
+    height: 306px;
+    /* width: 100%; */
+    /* padding-left: 2.25rem;
+    padding-right: 2.25rem; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.sidebar-2{
+    box-shadow: 0px 25px 10px 11px gray;
+}
+
+.sidebar-3{
+    padding: 0.75rem;
+    padding-top: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 11rem;
+    /* height: 100%; */
+    background-color: rgb(226 232 240 / 1); 
+}
+
+.sidebar-ul{
+    padding-left: initial;
+    width: 100%;
+    list-style-type: none;
+}
+
+.sidebar-ul-li-1{    
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;    
+    border-bottom: 2px solid rgb(51 65 85 / 1);    
+    color: rgb(29 78 216 / 1);
+}
+
+.sidebar-ul-div {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom-width: 1px;
+    border-color: rgb(51 65 85 / 1);
+}
+
+.sidebar-ul-div-li-baslik{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(29 78 216 / 1);
+    border-bottom: 2px solid rgb(51 65 85 / 1);    
+}
+
+.sidebar-ul-div-li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    border-bottom: 2px solid rgb(51 65 85 / 1);    
+}
+
+.sidebar-button_div{
+    padding-left: 9%;
+    padding-top: 10%;
+}
+
+.sidebar-button_div-li-a-button{
+    width: 90%;
+    padding: 2%;
+}
+
+.mainpage-div-1{
+    padding-left: 2.25rem;
+    width: 80%;
+    /* display: none; */
+}
+
+.mainpage-div-2{
+    padding-bottom: 0rem;
+}
+
+.mainpage-div-3{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.mainpagae-div-3-step1_div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "resim main"                        
+                        "resim  adres";
+}
+ 
+.item-resim{    
+    grid-area: resim;
+    border: 1px solid black;
+}
+
+.item-resim img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.item-main{
+    grid-area: main;
+    border: 1px solid black;
+    border-left: none;
+    padding-top: 15px;
+}
+
+.item-main-div-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    justify-content: center;
+    
+    
+}
+
+.item-main-div-1-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "ad soyad cinsiyet"                        
+                        "mail telefon dogum";
+    gap: 5%;
+    justify-content: center;
+}
+.item-main-item-ad{
+    grid-area: ad;
+}
+
+.item-main-item-soyad{
+    grid-area: soyad;
+}
+
+.item-main-item-cinsiyet{
+    grid-area: cinsiyet;
+}
+
+.item-main-item-mail{
+    grid-area: mail;
+}
+
+.item-main-item-telefon{
+    grid-area: telefon;
+}
+
+.item-main-item-dogum{
+    grid-area: dogum;
+}
+
+.item-adres{
+    grid-area: adres;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    padding-left: 10%;
+    padding-top: 10px;
+
+}
+
+.item-adres textarea{
+    resize: none;
+}
+
+
+
+
+
+
+

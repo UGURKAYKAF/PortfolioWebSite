@@ -1,0 +1,68 @@
+.sidebar-1{
+    height: 306px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.sidebar-2{
+    display: flex;
+    /* justify-content: center; */
+    height: 100%;
+    flex-direction: column;
+    width: 78%;
+    margin-left: 10px;
+    align-items: baseline;
+}
+
+.sidebar-ul{
+    padding-left: initial;
+    width: 100%;
+    list-style-type: none;
+}
+
+.sidebar-ul-li-1{    
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;    
+    border-bottom: 2px solid rgb(51 65 85 / 1);    
+    color: rgb(29 78 216 / 1);
+}
+
+.sidebar-ul-div {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom-width: 1px;
+    border-color: rgb(51 65 85 / 1);
+}
+
+.sidebar-ul-div-li-baslik{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(29 78 216 / 1);
+    border-bottom: 2px solid rgb(51 65 85 / 1);    
+}
+
+.sidebar-ul-div-li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    border-bottom: 2px solid rgb(51 65 85 / 1);    
+} 
+
+.sidebar-ul-div-li a{
+    text-decoration:none;
+    color: black;
+}
+
+.sidebar-button_div{
+    padding-left: 9%;
+    padding-top: 10%;
+}
+
+.sidebar-button_div-li-a-button{
+    width: 90%;
+    padding: 2%;
+}

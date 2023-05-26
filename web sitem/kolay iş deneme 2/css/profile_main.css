@@ -1,0 +1,101 @@
+.main_grid{
+    display: grid;
+    height: 100%; 
+    border: 1px solid black;
+    gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"iletisim"
+                        "ozel"
+                        "is"
+                        "egitim"
+                        "dil";
+}
+
+.itesim_bilgileri{
+    grid-area: iletisim;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+
+.iletisim_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "resim baslik";
+}
+
+
+.iletisim_resim{
+    grid-area: resim;
+}
+
+.iletisim_resim img{
+    width: 15%;
+}
+
+.iletisim_main{
+    grid-area: main;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"isim isim"
+                        "eposta dogum"
+                        "epostagirdi dogumgirdi"
+                        "telefon ."
+                        "telefongirdi ."
+                        "adres ."
+                        "adresgirdi .";
+}
+.isim{
+    grid-area: isim;
+    background-color: black;
+}
+.eposta{
+    grid-area: eposta;
+}
+.eposta_input{
+    grid-area: epostagirdi;
+}
+.telefon{
+    grid-area: telefon;
+}
+.telefon_input{
+    grid-area: telefongirdi;
+}
+.adres{
+    grid-area: adres;
+}
+.adres_input{
+    grid-area: adresgirdi;
+}
+.dogum_tarihi{
+    grid-area: dogum;
+}
+.dogum_tarihi_input{
+    grid-area: dogumgirdi;
+}
+
+
+.ozel_bilgileri{
+    grid-area: ozel;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+
+.is_deneyim{
+    grid-area: is;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+
+.egitim_bilgileri{
+    grid-area: egitim;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+
+.yabanci_dil{
+    grid-area: dil;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}

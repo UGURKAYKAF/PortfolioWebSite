@@ -1,0 +1,9 @@
+takipS.bacpac adlı veritabanı import ederken
+SQL server Management Studio Açılırken;
+
+
+Server name : '.'
+
+import(içe aktar) olan veritabanın name'i:'takipS' olmalıdır
+
+not:sistem_analiz.sql, tbl_admin.sql, phpmyadminle açın yani mysqlle

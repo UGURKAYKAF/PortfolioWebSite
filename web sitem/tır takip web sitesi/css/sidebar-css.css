@@ -1,0 +1,19 @@
+#sidebar-css {
+  color: white;
+  background-color: #2b303a;
+}
+.sidebar-ul {
+  list-style: none;
+}
+.sidebar-css-settings {
+  height: 70vh;
+  display: flex;
+}
+.sidebar-css-settings ul {
+  align-self: flex-end;
+  list-style: none;
+}
+.sidebar-css-settings a {
+  color: white;
+  text-decoration: none;
+}

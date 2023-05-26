@@ -1,0 +1,22 @@
+Projeyi açabilmek için
+
+Dosyayı htdocs un içine açın farklı bir klasöre koymayın yani kolayis klasöründen dışarıya çıkartın tüm dosyalar htdocsun içinde olsun farklı bir dosyanın içinde olmasın
+
+Xampp Apache ve MySql açılmalı
+Terminalden ya da cmd den dosya adresine gidilip (php -S localhost:8888) komutu girilmelidir ve urle localhost:8888 yazıldıktan sonra proje açılır
+
+proje adresleri 
+localhost:8888 alttaaki adresler girilebilir
+
+örnek = localhost:8888/profil
+  "/" = Anasayfa
+  "/ilanlar" = İş İlanları Sayfası
+  "/profil" = Profil Sayfası
+  "/giris" = Kullanıcı Girişi
+  "/kayit" = Kullanıcı Kaydı
+  "/firmaKayit" = Firma Kaydı
+  "/test" = Database Kontrolü
+
+
+Not =Hata vermemesi için Databasei açmayı index.php den yorum satırına aldım bağladıktan sonra yorum satırından çıkarbilirsiniz 
+phpMyAdmin en güncel versyon olduğundan başka bilgisayarda hata verebilir
